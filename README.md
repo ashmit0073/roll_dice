@@ -16,18 +16,6 @@ When you launch the app, you’ll see a gradient background, a dice image, and a
 - Random Number Generation (`dart:math`)
 - Gradient Background using `LinearGradient`
 
-## 🧱 Widget Tree Overview
-
-Here's a simplified breakdown of the widget tree:
-
-MaterialApp
-└── Scaffold
-    └── GradientContainer (Stateless)
-        └── Center
-            └── DiceRoller (Stateful)
-                ├── Image (dice image)
-                └── TextButton (Roll Dice)
-
 ### 🔁 Stateless Widgets
 - `GradientContainer`
 - `StyledText` (optional/customizable)
@@ -70,19 +58,7 @@ flutter:
 Use your preferred method:
 flutter run
 
-You can also use VS Code, Android Studio, or IntelliJ to run the app.
-
-📂 Project Structure
-lib/
-├── main.dart
-├── dice_roller.dart         # Stateful widget
-├── gradient_container.dart  # Gradient background with stateless widget
-└── styled_text.dart         # (Optional) Reusable styled text widget
-assets/
-└── images/
-    ├── dice-1.png
-    ├── dice-2.png
-    └── ... dice-6.png
+You can also use VS Code, Android Studio, or IntelliJ 
 
 📌 Notes
 Ensure your emulator or physical device is properly set up.
